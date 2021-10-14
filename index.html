@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form-2</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>personal information</legend>
+                <div>
+                    <label for="username1">First name</label>
+                    <input type="text" id="username1" name="username" required>
+                </div>
+                <br>
+                <div>
+                    <label for="username2">Last name</label>
+                    <input type="text" id="username2" name="username" required>
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender</label>
+                </div>
+                <div>
+                    <input type="radio" value="male" id="male" name="gender" required>
+                    <label for="male">male</label>
+                </div>
+                <div>
+                    <input type="radio" value="female" id="female" name="gender" required>
+                    <label for="female">female</label>
+                </div>
+                <br>
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <br>
+                <div>
+                    <label for="bio">Bio</label>
+                    <textarea name="bio" id="bio" cols="70" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Educational Information</legend>
+                <div>
+                    <label for="school">Schooling</label>
+                    <input type="text" id="school" name="school" required>
+                </div>
+                <div>
+                    <label for="uni">University</label>
+                    <select name="University" id="uni" >
+                        <option  value="vu">Vikram University</option>
+                        <option value="hu">Holkar University</option>
+                        <option  selected value="bu">Birla University</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Hobbies</legend>
+                <div>
+                    <input type="checkbox" id="checkbox1" name="" value="">
+                    <label for="checkbox1">Reading</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox2" name="weight" value="">
+                    <label for="checkbox2">Coding</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox3" name="weight" value="">
+                    <label for="checkbox3">Dancing</label>
+                </div>
+            </fieldset>
+            <hr>
+            <div>
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+    </body>
+</html>
